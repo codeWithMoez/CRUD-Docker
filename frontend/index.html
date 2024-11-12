@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservices App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Microservices CRUD App</h1>
+
+    <div id="user-form">
+        <h2>Create User</h2>
+        <form id="createUserForm">
+            <input type="text" id="userName" placeholder="Name" required>
+            <input type="email" id="userEmail" placeholder="Email" required>
+            <button type="submit">Create User</button>
+        </form>
+    </div>
+
+    <div id="order-form">
+        <h2>Create Order</h2>
+        <form id="createOrderForm">
+            <input type="text" id="orderDescription" placeholder="Order Description" required>
+            <input type="number" id="orderAmount" placeholder="Amount" required>
+            <button type="submit">Create Order</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

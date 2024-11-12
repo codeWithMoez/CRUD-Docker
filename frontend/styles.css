@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#user-form, #order-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input, form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+}
+
